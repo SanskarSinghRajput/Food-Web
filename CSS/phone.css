@@ -59,3 +59,30 @@
     font-size: 13px;
     padding: 4px 8px;
 }
+
+@media (max-width: 360px){
+  .h-secondary{
+    justify-content: center;
+    font-size: 28px;
+  }
+  #services .box img{
+    height: 100px;
+    margin: auto;
+    display: block;
+  }
+  #services .box1 img{
+    height: 100px;
+    margin: auto;
+    display: block;
+  }
+  #services .box2 img{
+    height: 100px;
+    margin: auto;
+    display: block;
+  }
+}
+@media (max-width: 270px){
+    .h-secondary{
+        font-size: 20px;
+    }
+}
